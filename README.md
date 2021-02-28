@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://AvocadoRina.github.io/rsschool-cv/cv
