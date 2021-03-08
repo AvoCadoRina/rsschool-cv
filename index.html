@@ -29,27 +29,37 @@
  </head>
  <body>
 <div class="crop">
-    <img src="11.jpeg" alt="Photo of Ekaterina" class="center-img"/>
+    <img src="11.jpg" alt="Photo of Ekaterina" class="center-img"/>
 </div>
   
   <div class="center">
    <article>
    <h1>CV</h1>
    <p>Ekaterina Ustich</p>
- 
-2. tg - @AvoCadoRina
+ <h4>Example of code</h4>
+        <div class="copy_box">
+        <xmp>
+            <div id="mc-container"></div>
+            <script type="text/python">
+            @bot.message_handler(commands=['start'])
+            def start_message(message):
+            bot.send_message(message.chat.id, "{}, здравствуйте!" 
+                     .format(message.from_user.first_name,), disable_web_page_preview=True, )
+            </script>
+        </xmp>
+    </div>
 3. Go from data analysys to front-end, learn Html, CSS, JavaScript for work
 4. Python (numpy, pandas), excel (vba)
-5.Example of code
- ```python 
- @bot.message_handler(commands=['start'])
-def start_message(message):
-        bot.send_message(message.chat.id, "{}, здравствуйте!" 
-                     .format(message.from_user.first_name,), disable_web_page_preview=True, )
- ```
+    
 7. Course - praktikum yandex- data-analyst
 8. Upper-intermediate
-   <aside>
+   <footer>
+ <p>Contact me: <ul><li><a href="mailto:ms.holycats@mail.ru">ms.holycats@mail.ru</a>.</li>
+    <li>tg - @AvoCadoRina</li></p>
+ </footer>
+   </div>
+</article> 
+  <aside>
   <h4>My experience</h4>
   <p>  <ul>
   <li>init: telegram bot task</li>
@@ -57,11 +67,5 @@ def start_message(message):
   <li>feat: add basic form</li>
 </ul></p>
 </aside>
-   <footer>
- <p>Contact me: <ul><li><a href="mailto:ms.holycats@mail.ru">ms.holycats@mail.ru</a>.</li>
-    <li>tg - @AvoCadoRina</li></p>
- </footer>
-   </div>
-</article> 
  </body>
 </html>
