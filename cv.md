@@ -1,14 +1,43 @@
-#Ekaterina Ustich
-<picture>
-srcset="photo.JPG"
-</picture>
+# Ekaterina Ustich
+## Junior Frontend Developer
 
+![Ekaterina](photo.JPG "Ekaterina's photo")
 
-Имя и фамилия
-Контакты для связи
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-Примеры кода
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+### Contact information:
+
+E-mail: ms.holycats@mail.ru
+Telegram: @AvoCadoRina
+
+### Briefly About Myself:
+
+### Skills and Proficiency:
+
+* HTML5 + CSS
+* Methodologies (SCRUM, Kanban, Waterfall)
+* Figma, Procreate
+
+My code for task Task "My Language Skills" 7 kyu
+You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the scores.
+
+```
+function myLanguages(results) {
+let result = [];  
+  for (let i in results) {
+    if (results[i] > 59) {
+      result.push(i);
+    }
+  }
+  return result.sort((a, b) => results[b] - results[a]);
+}
+```
+
+### Education:
+
+* 2014-2019 - bioengineering&bioinformatic specialist - IKBFU (Kaliningrad, Russia)
+* 2017-2022 - physical culture specialist - IKBFU (Kaliningrad, Russia)
+* 2021-2022 - itgirlsschool - fronted 
+
+### Languages:
+* English - fluent
+* Russian - Native
+* Spanish - Basic
