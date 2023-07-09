@@ -9,14 +9,18 @@ E-mail: ms.holycats@mail.ru
 Telegram: @AvoCadoRina
 
 ### Briefly About Myself:
+At university, I did foresight analytics using python (pandas,numpy) and participated in development of a neural network, that created foresights.
+I worked as risk analytic specialist since 2021 in FMCG company (work with dashboards, python, excel). 
+I am interested in data analyzing and based on it creating an interesting product for the end user.
 
 ### Skills and Proficiency:
 
 * HTML5 + CSS
 * Methodologies (SCRUM, Kanban, Waterfall)
+* Python (pandas)
 * Figma, Procreate
 
-My code for task Task "My Language Skills" 7 kyu
+### My code for task Task "My Language Skills" 7 kyu
 You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the scores.
 
 ```
