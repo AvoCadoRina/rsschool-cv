@@ -31,11 +31,15 @@ li{
     font-weight: 500;
     color: #735D78;
 }
+ul{
+    list-style: circle;
+}
 .menu ul{
     margin: 0 auto;
     width: 100%;
     align-items: center;
     display: flex;
+    list-style: none;
 }
 .menu li{
 align-items: center;
