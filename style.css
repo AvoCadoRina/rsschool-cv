@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #735D78;
+}
+.menu{
+
+}
+.img{
+width: 200px;
+}
+
+.about-me{
+    color: #E8C2CA;
+}
+
+.code{
+    color: #F7D1CD;
+
+}
+.Education{
+    color: #D1B3C4;
+
+}
