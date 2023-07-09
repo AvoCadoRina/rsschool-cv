@@ -1,7 +1,7 @@
 # Ekaterina Ustich
 ## Junior Frontend Developer
 
-![Ekaterina](photo.JPG "Ekaterina's photo")
+![Ekaterina](photo.JPG){:width="100px"}.
 
 ### Contact information:
 
