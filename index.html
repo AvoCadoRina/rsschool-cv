@@ -6,64 +6,86 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav class="menu">
-        <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Code</a></li>
-            <li><a href="#">Education</a></li>
-          </ul>
-    </nav>
-    <header>
-        <h1>Ekaterina Ustich</h1>
-        <p>Junior Frontend Developer</p>
-        <img class="img" src="\img\Ekaterina.JPG" alt="Ekaterina Ustich">
-    </header>
-    <main>
-        <div class="about-me">
-            <h2>Contact information:</h2>
-            <p>E-mail: ms.holycats@mail.ru Telegram: @AvoCadoRina</p>
-            <h2>Briefly About Myself:</h2>
-            <p>At university, I did foresight analytics using python (pandas,numpy) and participated in development of a neural network, that created foresights. I worked as risk analytic specialist since 2021 in FMCG company (work with dashboards, python, excel). I am interested in data analyzing and based on it creating an interesting product for the end user.</p>
-            <h2>Skills and Proficiency:</h2>
-            <p> EHTML5 + CSS
-                Methodologies (SCRUM, Kanban, Waterfall)
-                Python (pandas)
-                Figma, Procreate</p>
-        </div>
-        <div class="code">
-            <h2>My code for task Task “My Language Skills” 7 kyu</h2>
-            <p>You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the scores.</p>
-                <code>
-                function myLanguages(results) {<br>
-                let result = [];  <br>
-                for (let i in results) {<br>
-                    if (results[i]&gt; 59) {<br>
-                    result.push(i);<br>
-                    }<br>
-                }<br>
-                return result.sort((a, b) =&gt; results[b] - results[a]);<br>
-                }<br>
-                </code>
-            <h2>My recent task</h2>
-            <p>https://github.com/AvoCadoRina/VR/blob/main/VR.html</p>
-        </div>
-        <div class="Education">
-            <h2>Education:</h2>
-            <p>2014-2019 - bioengineering and bioinformatic specialist - IKBFU (Kaliningrad, Russia)
-                2017-2022 - physical culture specialist - IKBFU (Kaliningrad, Russia)
-                2021-2022 - itgirlsschool - fronted</p>
-            <h2>Languages:</h2>
-            <p>English - fluent
-                Russian - Native
-                Spanish - Basic</p>
-        </div>
-    </main>
-    <footer>
-        <p>Visit my <a href="https://github.com/AvoCadoRina">
-        github</a>.</p>
-
-    </footer>
-
-
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <li><a href="#About_me">About me</a></li>
+                <li><a href="#Code">Code</a></li>
+                <li><a href="#Education">Education</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Ekaterina Ustich</h1>
+            <p>Junior Frontend Developer</p>
+            <img class="img" src="\img\Ekaterina.JPG" alt="Ekaterina Ustich">
+        </header>
+        <main>
+            <div class="about-me">
+                <a name="About_me"></a>
+                <h2>Contact information:</h2>
+                <ul type="circle">
+                    <li><a href="mailto:ms.holycats@mail.ru">E-mail</a></li>
+                    <li><a href="https://t.me/AvoCadoRina">Telegram</a></li>
+                </ul>
+                <h2>Briefly About Myself:</h2>
+                <p>At university, I did foresight analytics using python (pandas,numpy) and participated in development of a neural network, that created foresights. I worked as risk analytic specialist since 2021 in FMCG company (work with dashboards, python, excel). I am interested in data analyzing and based on it creating an interesting product for the end user.</p>
+                <h2>Skills and Proficiency:</h2>
+                <ul type="circle">
+                    <li><progress value="75" max="100" style="--value: 0; --max: 100;"></progress> HTML5 + CSS</li>
+                    <li><progress value="15" max="100" style="--value: 0; --max: 100;"></progress> JS (React)</li>
+                    <li><progress value="45" max="100" style="--value: 0; --max: 100;"></progress> Methodologies (SCRUM, Kanban, Waterfall)</li>
+                    <li><progress value="50" max="100" style="--value: 0; --max: 100;"></progress> Python (pandas)</li>
+                    <li><progress value="80" max="100" style="--value: 0; --max: 100;"></progress> Figma, Procreate</li>
+                    </ul>
+            </div>
+            <div class="code">
+                <a name="Code"></a>
+                <h2>My code for task Task “My Language Skills” 7 kyu</h2>
+                <h3>Task:</h3>
+                <p class="Task">You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the scores.</p>
+                    <div class="code-example">
+                        <code>
+                            function myLanguages(results) {<br>
+                            let result = [];  <br>
+                            for (let i in results) {<br>
+                                if (results[i]&gt; 59) {<br>
+                                result.push(i);<br>
+                                }<br>
+                            }<br>
+                            return result.sort((a, b) =&gt; results[b] - results[a]);<br>
+                            }<br>
+                            </code>
+                    </div>
+                <h2>My recent task</h2>
+                <a href="https://github.com/AvoCadoRina/VR/blob/main/VR.html">Page for VR company</a>
+            </div>
+            <div class="Education">
+                <a name="Education"></a>
+                <h2>Education:</h2>
+                <ul type="circle">
+                    <li>2014-2019 - bioengineering and bioinformatic specialist - IKBFU (Kaliningrad, Russia)</li>
+                    <li>2017-2022 - physical culture specialist - IKBFU (Kaliningrad, Russia)</li>
+                    <li>2021-2022 - itgirlsschool - fronted</li>
+                    </ul>
+                <h2>Languages:</h2>
+                <ul type="circle">
+                    <li>English - fluent</li>
+                    <li>Russian - Native</li>
+                    <li>Spanish - Basic</li>
+                    </ul>
+            </div>
+        </main>
+        <footer>
+            <p>Visit my <a href="https://github.com/AvoCadoRina">
+            github</a>.</p>
+            <div>
+                <img class="RSS" src="img\rs_school_js.svg" alt="Logo of RSS">
+                <a href="https://rs.school/js/">Start your study</a>
+            </div>
+            <div class="year">
+                <p>2023</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
